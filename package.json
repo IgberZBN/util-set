@@ -1,0 +1,16 @@
+{
+  "name": "util-set",
+  "version": "1.0.0",
+  "description": "A project is a set of classes and standard styles designed for quick and easy use.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "IgberBN",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "prettier": "^2.8.6"
+  }
+}
