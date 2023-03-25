@@ -1,0 +1,17 @@
+
+// ! Menu toggle  
+
+@mixin menuToggleX($index, $width, $height, $transLateX)
+  z-index: $index
+  width: $width
+  height: $height
+  transform: translateX($transLateX)
+
+@mixin menuToggleY($index, $width, $height, $transLateX)
+  z-index: $index
+  width: $width
+  height: $height
+  transform: translateY($transLateX)
+
+@mixin menuToggleActive
+  transform: translate(0,0)
